@@ -1,0 +1,39 @@
+body {
+  background-color:white;
+}
+
+#wrapper{
+  background-color:#E6E6E6;
+  width:980px;
+	margin :auto;
+  padding: 10px;
+	border-top-right-radius:8px ;
+  border-top-left-radius:8px ;
+  border-bottom-right-radius:8px ;
+  border-bottom-left-radius:8px ;
+}
+h3{
+  text-align:center;
+  color:#5F6466;
+}
+.task{
+
+  display:block;
+  padding-left: 10px;
+
+}
+.message{
+    color:#022430;
+    text-align:center;
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #5F6466;
+  border-width: 0 0 2px 0;
+  border-radius: 30px;
+  color:#5F6466;
+}

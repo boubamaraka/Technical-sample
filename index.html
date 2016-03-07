@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Wiredelta Assignment</title>
+      <meta name="description" content="Wiredelta Assignment">
+      <meta name="keywords" content="HTML,CSS,JavaScript">
+      <meta name="Ibrahima" content="Wiredelta Assignment">
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" media="all" href="style.css"/>
+  </head>
+  <body>
+      <div id="wrapper">
+              <h3>This webpage is doing multiple task</h3>
+              <hr>
+            <div class="task">
+                  <h3> THE AGE CALCULATOR</h3>
+                  <p>Guess what if you dont know how old you are now , just do not panick if you know your age of birth simply enter below</p>
+                  <p>
+                    <label> Please enter your birth date: <input type="text" id ="birth_year" ><label>
+                    <input type="button" value="Your Age" onClick="calculateAge()"></p>
+                  <p id="yourAge" class="message"></p>
+
+            </div>
+            <hr>
+            <div class="task">
+                <h3>THE LIFETIME SUPPLY CALCULATOR</h3>
+                <p>Guess what we have another feature in our website, If you ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!</p>
+                <p>
+                    <label>enter your age please: <input type="text" id ="Age" ></label>
+                    <label>Amount per Day: <input type="text" id ="daily" ></label>
+                    <input type="button" value="LifeSuply" onClick="calculateSupply()">
+                <p id="lifetime" class="message" ></p>
+
+          </div>
+           <hr>
+           <div class="task">
+               <h3>THE GEOMETRIZER</h3>
+               <p>Here you can calculate the circumference and the area of the cercle just simply enter the radius</p>
+               <p>
+                  <label> Please enter the radiues of the cercle: <input type="text" id ="radius" ><label>
+                  <input type="button" value="Circumference" onClick="calcCircumfrence()">
+                  <input type="button" value="Area" onClick="calcArea()"></p>
+               <p id="circumference" class="message" ></p>
+               <p id="area" class="message" ></p>
+
+          </div>
+          <hr>
+          <div class="task">
+              <h3>THE TEMPERATURE CONVERTER</h3>
+              <p>Here you can convert Celsius to Fahrenheit and vice versa</p>
+              <p>
+                 <label> Please enter the temperature: <input type="text" id ="temp" ><label>
+                 <input type="button" value="celsius" onClick="celsiusToFahrenheit()">
+                 <input type="button" value="fahrenheit" onClick="fahrenheitToCelsius()"></p>
+              <p id="celsius" class="message" ></p>
+              <p id="fahrenheit" class="message" ></p>
+
+          </div>
+    </div>
+
+
+
+
+
+<script src="Javascript.js"></script>
+
+
+  </body>
+</html>
